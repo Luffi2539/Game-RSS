@@ -302,7 +302,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function init() {
-  localStorage.removeItem('gameStorage');
   const playerStatus = 100;
   const monsterStatus = 100;
   const winLoseScreen = document.querySelector('.win-lose-screen');
