@@ -258,11 +258,11 @@
 }
 
 .scoreboard {
+  visibility:hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  visibility:hidden;
   position:absolute;
   height:400px;
   width:500px;
