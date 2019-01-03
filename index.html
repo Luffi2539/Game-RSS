@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Battle!</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css' />
+    
+</head>
+<body>
+  <div class="background-f-page">
+      <input type="text" class="p-name" placeholder="Enter your Name">
+      <button class='to-battle'>Fight!</button>
+  </div>
+  <div class='background'>
+    <div class='healthbars'>
+      <div class='healthbar' id='p-healthbar'>
+        <span class = 'info player-name'></span>
+        <span class = 'info player-health'></span>
+      </div>
+      <div class='healthbar' id='m-healthbar'>
+        <span class = 'info monster-name'></span>
+        <span class = 'info monster-health'></span>
+      </div>
+    </div>
+    <div class='players'>
+      <div class='player' id='player'>
+        <img src='./img/player.png' id='pl-img'>
+      </div>
+      <div class='player' id='monster'>
+        <img id='m-head' class='monster-part'>
+        <img id='m-body' class='monster-part'>
+        <img id='m-legs' class='monster-part'>
+      </div>
+    </div>
+    <div class='combat'>
+      <button class='attack-button'></button>
+        <div class='spells'>
+          <button class='spell' id='spell-1'></button>
+          <button class='spell' id='spell-2'></button>      
+          <button class='spell' id='spell-3'></button>
+          <button class='spell' id='spell-4'></button>
+          <button class='spell' id='close-spells'></button>
+        </div>
+    </div>
+    <div class='quest-screen'>
+      <div class='spell-name'></div>
+      <div class='spell-quest'></div>
+      <input type='text' class='quest-answer' id='quest-answer'>
+      <button class='submit-cast' id='submit-cast'>Attack!</button>
+    </div>
+    <div class="win-lose-screen">
+      <div class="scoreboard">
+        <table>
+          <tr>
+            <th>Player</th>
+            <th>Score</th>
+          </tr>
+          <tr>
+            <td>asd</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>asd</td>
+            <td>1asf23</td>
+          </tr>
+          <tr>
+            <td>asd</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>1asd23</td>
+            <td>1asd23</td>
+          </tr>
+          <tr>
+            <td>123</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>12dd3</td>
+            <td>asd123</td>
+          </tr>
+          <tr>
+            <td>123</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>1sad23</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>123</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>123</td>
+            <td>123</td>
+          </tr>
+        </table>
+        <button class='go-to-menu'>Go to Main Menu</button>
+      </div>
+      <span class='win-lose-message'></span>
+      <div class="win-lose-buttons">
+        <button class='new-game'></button>
+        <button class='end-game'></button>
+      </div>
+    </div>
+  </div>
+
+  <script src='main.js'></script>
+</body>
+</html>
